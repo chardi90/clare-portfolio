@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Front-end developer exploring the limits of user interface design. Skilled in JavaScript, CSS, HTML, PHP, and Python to create dynamic, user-friendly websites."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,7 +18,7 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
-    <title>Clare Harding</title>
+    <title>Front-end Developer - Latest Projects - Clare Harding</title>
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
   <body>
@@ -23,7 +26,7 @@
       class="navbar navbar-expand-lg navbar-light bg-light bg-body-tertiary fixed-top"
     >
       <div class="container">
-        <a class="navbar-brand" href="index.html">Clare Harding</a>
+        <a class="navbar-brand" href="/index.html">Clare Harding</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -43,10 +46,17 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About me</a>
+              <a class="nav-link" href="/about.html" title="About Page"
+                >About me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html#contact">Contact me</a>
+              <a
+                class="nav-link"
+                href="/about.html#contact"
+                title="Contact Details"
+                >Contact me</a
+              >
             </li>
           </ul>
         </div>
@@ -56,16 +66,20 @@
     <h1 class="text-center">Clare Harding</h1>
     <h3 class="text-center">🇬🇧 Front-end developer, based in Manchester</h3>
     <div class="navigation-links mb-5">
-      <a href="/about.html#contact" class="primary-link">Contact me</a>
-      <a href="/about.html" class="secondary-link">About me</a>
+      <a href="/about.html#contact" class="primary-link" title="Contact Details"
+        >Contact me</a
+      >
+      <a href="/about.html" class="secondary-link" title="About Page"
+        >About me</a
+      >
     </div>
     <div class="container">
-      <div class="row">
+      <div class="row mt-1">
         <div class="col-md-6">
           <img
             src="/images/weather-forecast-app.png"
-            alt="Yoga"
-            class="img-fluid rounded shadow"
+            alt="Weather Forecast App"
+            class="img-fluid rounded shadow mt-4"
           />
         </div>
         <div class="col-md-6">
@@ -80,6 +94,7 @@
               href="https://the-weather-in.netlify.app/"
               class="primary-link"
               title="Weather Forecast App"
+              target="_blank"
               >Launch Weather</a
             >
           </div>
@@ -87,7 +102,7 @@
       </div>
       <div class="row mt-5">
         <div class="col-md-6">
-          <h2 class="mb-3">🤖 AI Limericks</h2>
+          <h2 class="mb-3">AI Limericks 🤖</h2>
           <p>
             Enter keywords and let our AI create a fun, clever limerick in the
             spirit of Edward Lear. Perfect for poetry lovers and playful minds
@@ -98,6 +113,7 @@
               href="https://limerick-generator.netlify.app/"
               class="primary-link"
               title="AI Limerick Generator"
+              target="_blank"
               >Launch Limericks</a
             >
           </div>
@@ -105,8 +121,8 @@
         <div class="col-md-6">
           <img
             src="/images/ai-limerick-generator.png"
-            alt="Weather"
-            class="img-fluid rounded shadow"
+            alt="AI Limerick Generator to make poems"
+            class="img-fluid rounded shadow mt-4"
           />
         </div>
       </div>
@@ -114,8 +130,8 @@
         <div class="col-md-6">
           <img
             src="/images/world-clock-time-zone-converter.png"
-            alt="Yogurt"
-            class="img-fluid rounded shadow"
+            alt="World Clock App to Compare Time Zones"
+            class="img-fluid rounded shadow mt-4"
           />
         </div>
         <div class="col-md-6">
@@ -130,6 +146,7 @@
               href="https://time-zones-clock.netlify.app/"
               class="primary-link"
               title="World Clock - Time Zones"
+              target="_blank"
               >Launch Clock</a
             >
           </div>
